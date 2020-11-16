@@ -1,4 +1,4 @@
-from tests import *
+from scraper import *
 import threading
 
 

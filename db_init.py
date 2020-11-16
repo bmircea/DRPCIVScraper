@@ -9,8 +9,8 @@ connection = sqlite3.connect("database.db")
 cursor = connection.cursor()
 
 #Table creation queries
-query_list = ["CREATE TABLE available (date date)",
-              "CREATE TABLE listeners (ID INTEGER NOT NULL PRIMARY KEY, wdate date)"]
+query_list = ["CREATE TABLE available (date text)",
+              "CREATE TABLE listeners (ID INTEGER NOT NULL PRIMARY KEY, wdate text)"]
 
 #Execute queries
 for query in query_list:
