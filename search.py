@@ -1,5 +1,4 @@
 from tests import *
-from save import *
 import threading
 
 
@@ -8,7 +7,7 @@ def search_thread(start, stop, activity, county, list, file):
     timed_request(start, stop, activity, county, list, file)
 
 data = []
-file = "data.csv"
+file = "database.db"
 
 x = datetime(2020, 11, 23)
 y = datetime(2021, 1, 15)

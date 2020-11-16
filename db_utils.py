@@ -19,9 +19,3 @@ def update_db(filename, list):
 
     connection.commit()
     connection.close()
-
-
-
-
-def read_db(filename, list):
-    #TODO
